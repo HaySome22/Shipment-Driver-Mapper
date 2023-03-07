@@ -2,7 +2,7 @@
 
 A command line application that maps shipments to drivers while maximizing total suitability score (SS).
 
-The implementation uses SciPy's linear sum assignment function to determine the optimal mappings with the highest total SS.
+This is an [assignment problem](https://en.wikipedia.org/wiki/Assignment_problem), so this implementation uses SciPy's linear sum assignment function to determine the optimal mappings with the highest total SS.
 
 ### Prerequisites
 
